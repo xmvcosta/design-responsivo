@@ -7,6 +7,7 @@
                 border: 0;
                 overflow: hidden;
             }
+            /* CORES PADRÂO */
             
              :root {
                 --cor-ms: #836FFF;
@@ -19,7 +20,7 @@
             
             a {
                 text-decoration: none;
-                color: aliceblue;
+                color: #fff;
             }
             
             a:hover {
@@ -46,8 +47,8 @@
                 margin: 0 auto;
                 font-family: Verdana, sans-serif;
                 color: #fff;
-                font-size: 15px;
-                line-height: 1.5
+                font-size: 16px;
+                line-height: 1.5;
             }
             
             header {
@@ -64,8 +65,31 @@
             main {
                 background-color: #fff;
                 color: #000;
+                padding: 2%;
             }
-            /* MEDIA QUERIES */
+            
+            #formLogin {
+                margin-top: 1em;
+                background-color: red;
+            }
+            
+            form {
+                padding: 2%;
+                background-color: lightgray;
+                width: 100%;
+            }
+            
+            #enviar {
+                display: block;
+            }
+            /* classes auxiliares */
+            
+            .container {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            /* media queries */
             
             @media (max-width: 374px) {
                 body {
