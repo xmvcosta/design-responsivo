@@ -71,7 +71,11 @@
                 width: 100%;
                 color: #000;
             }
-            
+
+            #formLogin input {
+            outline: none;    
+            }
+
             #enviar {
                 display: block;
             }
